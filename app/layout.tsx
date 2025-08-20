@@ -4,6 +4,8 @@ import { Inter, JetBrains_Mono } from "next/font/google"
 import "./globals.css"
 import { Navigation } from "@/components/navigation"
 import { Footer } from "@/components/footer"
+import { GoogleAnalytics } from '@next/third-parties/google'
+
 
 const inter = Inter({
 	subsets: ["latin"],
@@ -62,6 +64,7 @@ export default function RootLayout({
 				{children}
 				<Footer />
 			</body>
+			<GoogleAnalytics gaId="G-JZX0QEME53" />
 		</html>
 	)
 }
