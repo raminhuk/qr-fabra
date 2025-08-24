@@ -44,7 +44,7 @@ export const metadata: Metadata = {
 	alternates: {
 		canonical: "/",
 	},
-	generator: 'v0.app'
+	generator: 'fabra.dev - QRFabra',
 }
 
 export default function RootLayout({
